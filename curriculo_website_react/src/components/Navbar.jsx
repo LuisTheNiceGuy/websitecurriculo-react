@@ -7,10 +7,10 @@ import {FaRegFile} from 'react-icons/fa'
 function Navbar(){
     return(
         <nav className="navbar">
-            <Link to="/" className='home'>Luis Gustavo CS</Link>
+            <Link to="/" className='home_title'>Luis Gustavo CS</Link>
             <ul>
-                <CustomLink to="/SobreMim"><FaUserAlt />Sobre mim</CustomLink>
-                <CustomLink to="/Curriculum"><FaRegFile />Curriculum</CustomLink>
+                <CustomLink to="/SobreMim"><FaUserAlt className='icon' />Sobre mim</CustomLink>
+                <CustomLink to="/Curriculum"><FaRegFile className='icon'/>Curriculum</CustomLink>
             </ul>
         </nav>
     )
