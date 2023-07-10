@@ -1,20 +1,22 @@
-*{
-    color:white;
-}
-.foto_eu{
-    clip-path: circle();
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 15rem;
-    
-}
-
-
-h1{
-    font-size: 5rem;
-}
 body{
     background-image: url("./gipoiooioihy.gif");
     background-size: 54rem;
+}
+.container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}   
+
+.foto_eu{
+    clip-path: circle();
+    width: 15rem;
+}
+
+
+.apresentacao{
+    font-size: 4rem;
+    color: white;
 }
